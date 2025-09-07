@@ -5,6 +5,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
 @Data
 @NoArgsConstructor@AllArgsConstructor
 @Entity
@@ -14,7 +18,8 @@ public class ShoppingCart {
     @OneToOne
     private Client client;
     @OneToMany
-    private Product product;
+    private List<Product> products = new ArrayList<>();
+
 
 
 }
