@@ -19,7 +19,7 @@ public class ClientService {
         this.shoppingCartRepository = shoppingCartRepository;
     }
 
-    public List<Client> allClient(){
+    public List<Client> getAllClient(){
         return clientRepository.findAll();
     }
 
@@ -43,7 +43,7 @@ public class ClientService {
         return null;
     }
 
-    public void deleteClient(int id){
+    public void deleteClientById(int id){
         clientRepository.deleteById(id);
 
     }
