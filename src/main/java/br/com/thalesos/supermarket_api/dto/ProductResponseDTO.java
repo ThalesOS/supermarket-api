@@ -1,5 +1,7 @@
 package br.com.thalesos.supermarket_api.dto;
 
-public record ProductResponseDTO(int id, String name, double price) {
+import java.math.BigDecimal;
+
+public record ProductResponseDTO(int id, String name, BigDecimal price) {
 }
 
