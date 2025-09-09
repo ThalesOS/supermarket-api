@@ -114,7 +114,7 @@ Este projeto está sob a licença **MIT** - veja o arquivo [LICENSE](LICENSE) pa
 
 Feito com 💻 por Thales Oliveira 🚀
 
-</div> ```
+</div> 
 
 
 
